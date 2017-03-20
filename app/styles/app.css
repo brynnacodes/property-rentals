@@ -1,0 +1,128 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+  float: right;
+}
+.navbar ul {
+  display: inline-block;
+}
+
+.navbar li {
+  display: inline-block;
+  padding: 20px;
+  color: grey;
+}
+
+.jumbotron h1 {
+  font-size: 45px;
+  font-family: 'Roboto', sans-serif;
+  padding: 20px;
+  letter-spacing: 2px;
+}
+
+#liveThere{
+  color: red;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  padding-left: 30px;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 100%;
+}
+
+.image-banner {
+  width: 730px;
+}
+
+.col-md-5{
+  width: 500px;
+  height: 397px;
+  text-align: center;
+  font-size: 25px;
+  background-color: black;
+  color: white;
+
+}
+#community div{
+  display: inline;
+}
+
+#community p {
+  margin-top: 100px;
+}
+
+.community-button {
+ margin-top: 20px;
+}
+
+.Explore{
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  padding: 25px;
+}
+#Paris{
+  background-image: url("https://static.pexels.com/photos/53896/pexels-photo-53896-large.jpeg");
+  background-size: cover;
+  height: 500px;
+  width: 500px;
+  color: white;
+  text-align: left;
+  font-family: Verdana;
+}
+
+#Rome{
+  background-image: url("https://static.pexels.com/photos/10922/pexels-photo-10922-large.jpeg");
+  background-size: cover;
+  width: 500px;
+  height: 500px;
+  color: white;
+  text-align: left;
+  font-family: Verdana;
+}
+#LosAngeles{
+  background-image: url("https://static.pexels.com/photos/87308/pexels-photo-87308-large.jpeg");
+  background-size: cover;
+  width: 500px;
+  height: 500px;
+  color: white;
+  text-align: left;
+  font-family: Verdana;
+}
+#Lisbon{
+  background-image: url("https://static.pexels.com/photos/31737/pexels-photo-large.jpg");
+  background-size: cover;
+  width: 500px;
+  height: 500px;
+  color: white;
+  text-align: left;
+  font-family: Verdana;
+}
+#Tokyo{
+  background-image: url("https://static.pexels.com/photos/9651/pexels-photo-9651-large.jpeg");
+  background-size: cover;
+  width: 500px;
+  height: 500px;
+  color: white;
+  text-align: left;
+  font-family: Verdana;
+}
+#London{
+  background-image: url("https://static.pexels.com/photos/50632/pexels-photo-50632-large.jpeg");
+  background-size: cover;
+  width: 500px;
+  height: 500px;
+  color: white;
+  text-align: left;
+  font-family: Verdana;
+}
